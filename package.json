@@ -1,0 +1,39 @@
+{
+  "name": "reactsampleusingodata",
+  "version": "0.1.0",
+  "description": "A sample React app using React/Redux/OData sample",
+  "repository": {
+    "type": "git",
+    "url": "github.com/prncher/ReactSampleUsingOData"
+  },
+  "author": {
+    "name": "Prince Cheruvatur",
+    "email": "prncher@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts-ts": "2.15.1"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
+    "@types/jest": "^22.2.3",
+    "@types/node": "^9.6.5",
+    "@types/react": "^16.3.11",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-redux": "^5.0.16",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "test-coverage": "react-scripts-ts test --env=jsdom '--coverage' '--verbose'",
+    "eject": "react-scripts-ts eject"
+  }
+}
