@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  height: 10px;
+}
+
+.Products {
+  z-index: 999;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ms-List-cell:nth-child(odd) .ms-DetailsRow {
+  background:rgba(197, 151, 151, 0.007) ;
+}
+
+.ms-List-cell:nth-child(even) .ms-DetailsRow {
+  background:rgb(149, 187, 169) ;
+}
